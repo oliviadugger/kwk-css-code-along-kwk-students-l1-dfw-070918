@@ -1,1 +1,23 @@
 /* add CSS class and element and selectors here */
+ body {
+      background: linear-gradient(lightblue, yellow);
+      font-size: 150%;
+
+    }
+    
+
+    
+    .cats {
+      font-size: 150%;
+      background-color: orange;
+      font-family: phosphate;
+      border: 15px solid white;
+      text-transform: lowercase;
+      letter-spacing: 5px;
+      transition: rotate(-30)deg;
+      text-align: center;
+      text-shadow: 3px 3px #FFFFFF;
+    animation: animationFrames linear 3s;
+    
+  animation-iteration-count: infinite;
+    }
